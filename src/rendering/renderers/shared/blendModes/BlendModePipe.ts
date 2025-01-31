@@ -38,7 +38,7 @@ extensions.handle(ExtensionType.BlendMode, (value) =>
  * It will insert instructions into the {@link renderers.InstructionSet} to switch the blend mode according to the
  * blend modes of the scene graph.
  *
- * This pipe is were wwe handle Advanced blend modes. Advanced blend modes essentially wrap the renderables
+ * This pipe is were we handle Advanced blend modes. Advanced blend modes essentially wrap the renderables
  * in a filter that applies the blend mode.
  *
  * You only need to use this class if you are building your own render instruction set rather than letting PixiJS build
